@@ -28,14 +28,17 @@ HEADERS = [
 ]
 
 
+TABLE_SELECTOR = "#selfServiceTable-TodaysInspections tbody tr"
+
+
 def extract_rows(page):
     """Extract all data rows from the currently visible table page."""
     return page.evaluate("""() => {
         const rows = [];
-        const tbody = document.querySelector('table tbody');
-        if (!tbody) return rows;
+        const table = document.getElementById('selfServiceTable-TodaysInspections');
+        if (!table) return rows;
 
-        for (const tr of tbody.querySelectorAll('tr')) {
+        for (const tr of table.querySelectorAll('tbody tr')) {
             const cells = tr.querySelectorAll('td');
             if (cells.length === 0) continue;
 
@@ -61,16 +64,16 @@ def scrape():
         page.goto(PAGE_URL, wait_until="networkidle", timeout=60_000)
 
         try:
-            page.wait_for_selector("table tbody tr", timeout=30_000)
+            page.wait_for_selector(TABLE_SELECTOR, timeout=30_000)
         except PlaywrightTimeoutError:
             print("ERROR: Table did not load within 30 seconds.", file=sys.stderr)
             sys.exit(1)
 
         # Set results per page to 100 to reduce pagination
         try:
-            page.locator("select").last.select_option("100")
+            page.locator("#pageSizeList").select_option("100")
             page.wait_for_load_state("networkidle", timeout=15_000)
-            page.wait_for_selector("table tbody tr", timeout=15_000)
+            page.wait_for_selector(TABLE_SELECTOR, timeout=15_000)
         except Exception as e:
             print(f"Warning: could not set page size: {e}", file=sys.stderr)
 
@@ -82,7 +85,7 @@ def scrape():
             for r in table_rows:
                 href = r[0] if len(r) > 0 else ""
                 link_text = r[1] if len(r) > 1 else ""
-                inspection_id = link_text.removeprefix("Inspection ").strip()
+                inspection_id = link_text.strip()
                 full_url = f"{BASE_URL}{href}" if href.startswith("#") else href
 
                 cells = r[2:]
@@ -111,7 +114,7 @@ def scrape():
 
             next_li.locator("a").click()
             page.wait_for_load_state("networkidle", timeout=15_000)
-            page.wait_for_selector("table tbody tr", timeout=15_000)
+            page.wait_for_selector(TABLE_SELECTOR, timeout=15_000)
             page_num += 1
 
         browser.close()
