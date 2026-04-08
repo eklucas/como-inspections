@@ -14,9 +14,8 @@ PAGE_URL = f"{BASE_URL}#/inspection/todaysinspections"
 OUTPUT_DIR = Path("data")
 TABLE_SELECTOR = "#selfServiceTable-TodaysInspections tbody tr"
 
-START_DATE = date(2025, 4, 9)
-#END_DATE = date.today() - timedelta(days=1)  # yesterday
-END_DATE = date(2025, 4, 12)
+START_DATE = date(2025, 4, 8)
+END_DATE = date.today() - timedelta(days=1)  # yesterday
 
 HEADERS = [
     "inspection_id",
@@ -109,22 +108,25 @@ def scrape_rows_for_page(page, target_date):
         next_a = page.locator('a[aria-label="next page"]')
         if next_a.count() == 0:
             break
-        # Use evaluate() to read the live DOM className (AngularJS sets
-        # "disabled" via ng-class, which updates the property not the attribute)
+        # Use evaluate() to read the live DOM className — AngularJS applies
+        # "disabled" via ng-class, which updates the property not the attribute
         li_class = next_a.evaluate('el => el.parentElement.className')
         if "disabled" in li_class:
             break
 
-        # Capture first row text so we can detect when new data loads
-        first_row_text = page.locator(TABLE_SELECTOR).first.inner_text()
+        # Pass first-row ID as a JS argument (not string-interpolated) so
+        # special characters in the text can't break the JS expression
+        first_id = table_rows[0][1]
         next_a.click()
         page.wait_for_load_state("networkidle", timeout=15_000)
-        # Wait until the table content actually changes (AngularJS replaces rows in place)
         page.wait_for_function(
-            f"""() => {{
-                const tr = document.querySelector('{TABLE_SELECTOR}');
-                return tr && tr.innerText !== {repr(first_row_text)};
-            }}""",
+            """(prevId) => {
+                const tr = document.querySelector('#selfServiceTable-TodaysInspections tbody tr');
+                if (!tr) return false;
+                const a = tr.querySelector('a');
+                return a && a.textContent.trim() !== prevId;
+            }""",
+            arg=first_id,
             timeout=15_000,
         )
         page_num += 1
@@ -159,7 +161,7 @@ def main():
         # Set page size to 100 once — persists across date changes
         try:
             page.locator("#pageSizeList").select_option("100")
-            page.wait_for_load_state("networkidle", timeout=15_000)
+            page.wait_for_load_state("networkidle", timeout=60_000)
         except Exception as e:
             print(f"Warning: could not set page size: {e}", file=sys.stderr)
 
