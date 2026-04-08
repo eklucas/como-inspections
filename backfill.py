@@ -55,8 +55,14 @@ def extract_rows(page):
 
 
 def set_date(page, target_date):
-    """Type a date into the ScheduledDate input and wait for the table to reload."""
-    date_str = target_date.strftime("%m/%d/%Y")
+    """Type a date into the ScheduledDate input and wait for the table to reload.
+
+    The site's date picker interprets input as UTC midnight, which rolls back
+    one day in Central Time. We pass target_date + 1 day so the website lands
+    on the correct date.
+    """
+    picker_date = target_date + timedelta(days=1)
+    date_str = picker_date.strftime("%m/%d/%Y")
 
     date_input = page.locator("#ScheduledDate")
     date_input.click(click_count=3)
