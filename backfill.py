@@ -108,6 +108,7 @@ def scrape_rows_for_page(page, target_date):
 
         next_li.locator("a").click()
         page.wait_for_load_state("networkidle", timeout=15_000)
+        page.wait_for_selector(TABLE_SELECTOR, timeout=15_000)
         page_num += 1
 
     return rows
