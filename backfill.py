@@ -59,7 +59,7 @@ def set_date(page, target_date):
     date_str = target_date.strftime("%m/%d/%Y")
 
     date_input = page.locator("#ScheduledDate")
-    date_input.triple_click()
+    date_input.click(click_count=3)
     date_input.type(date_str)
     date_input.press("Tab")
 
