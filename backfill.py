@@ -105,14 +105,16 @@ def scrape_rows_for_page(page, target_date):
                 "scrape_date": scrape_date_str,
             })
 
-        next_li = page.locator('li:has(a[aria-label="next page"])')
-        if next_li.count() == 0:
+        next_a = page.locator('a[aria-label="next page"]')
+        if next_a.count() == 0:
             break
-        li_class = next_li.get_attribute("class") or ""
-        if "disabled" in li_class or "ng-hide" in li_class:
+        # Use evaluate() to read the live DOM className (AngularJS sets
+        # "disabled" via ng-class, which updates the property not the attribute)
+        li_class = next_a.evaluate('el => el.parentElement.className')
+        if "disabled" in li_class:
             break
 
-        next_li.locator("a").click()
+        next_a.click()
         page.wait_for_load_state("networkidle", timeout=15_000)
         page.wait_for_selector(TABLE_SELECTOR, timeout=15_000)
         page_num += 1
