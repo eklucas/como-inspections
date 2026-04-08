@@ -14,8 +14,9 @@ PAGE_URL = f"{BASE_URL}#/inspection/todaysinspections"
 OUTPUT_DIR = Path("data")
 TABLE_SELECTOR = "#selfServiceTable-TodaysInspections tbody tr"
 
-START_DATE = date(2025, 4, 8)
-END_DATE = date.today() - timedelta(days=1)  # yesterday
+START_DATE = date(2025, 4, 9)
+#END_DATE = date.today() - timedelta(days=1)  # yesterday
+END_DATE = date(2025, 4, 12)
 
 HEADERS = [
     "inspection_id",
@@ -114,9 +115,18 @@ def scrape_rows_for_page(page, target_date):
         if "disabled" in li_class:
             break
 
+        # Capture first row text so we can detect when new data loads
+        first_row_text = page.locator(TABLE_SELECTOR).first.inner_text()
         next_a.click()
         page.wait_for_load_state("networkidle", timeout=15_000)
-        page.wait_for_selector(TABLE_SELECTOR, timeout=15_000)
+        # Wait until the table content actually changes (AngularJS replaces rows in place)
+        page.wait_for_function(
+            f"""() => {{
+                const tr = document.querySelector('{TABLE_SELECTOR}');
+                return tr && tr.innerText !== {repr(first_row_text)};
+            }}""",
+            timeout=15_000,
+        )
         page_num += 1
 
     return rows
