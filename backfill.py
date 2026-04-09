@@ -16,7 +16,7 @@ OUTPUT_DIR = Path("data")
 TABLE_SELECTOR = "#selfServiceTable-TodaysInspections tbody tr"
 
 START_DATE = date(2025, 4, 9)
-END_DATE = date.today() - timedelta(days=1)  # full backfill
+END_DATE = date.today() - timedelta(days=2)  # full backfill
 
 
 def set_date(page, target_date):

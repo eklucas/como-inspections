@@ -1,6 +1,10 @@
 # Annoying DS Store files
 .DS_Store
 
+# backfill data files (individual)
+data/backfill_data/
+backfill output.txt
+
 # History files
 .Rhistory
 .Rapp.history
