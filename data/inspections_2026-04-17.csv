@@ -1,0 +1,67 @@
+View Inspection,Case Number,Case Type,Inspection Type,Address,Primary Inspector,Estimated Start Time,Estimated End Time,Inspector Phone Number,Status,Order,scrape_date
+BLDG-195123-2026,BLDC-000935-2025,Permit,BSD-Insulation,4170 BETHEL ST COLUMBIA MO 65203,"Tiffany, Andy",01:00 PM,12:00 AM,,Partial Pass Permit Inspection,0,2026-04-17
+ACI-195114-2026,BLDC-001637-2024,Permit,BSD-Above Ceiling Inspection,1751 W ASH ST   COLUMBIA MO 65203,"Hazlett, Harlan",08:00 AM,08:00 AM,,Cancelled ,0,2026-04-17
+FIRE-FA-195137-2026,BLDC-001979-2024,Permit,Fire - Alarm Acceptance Testing,5400 SINCLAIR RD COLUMBIA MO 65203,"RIGGS, STEVEN",12:00 AM,12:00 AM,,Requested,0,2026-04-17
+FFNL-195138-2026,BLDC-001979-2024,Permit,Fire Final (Building),5400 SINCLAIR RD COLUMBIA MO 65203,"RIGGS, STEVEN",12:00 AM,12:00 AM,,Requested,0,2026-04-17
+PLMB-195179-2026,BLDC-003471-2025,Permit,BSD-Plumbing Groundwork,602 FAY ST STE 101 COL MO 65201,"Hazlett, Harlan",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+ELEC-195045-2026,BLDC-004425-2024,Permit,BSD-Electrical Tag,4101 LEDGER DR COLUMBIA MO 65201,"Lichty, Curtis",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+ACI-195121-2026,BLDC-005847-2024,Permit,BSD-Above Ceiling Inspection,1020 S EL CHAPARRAL AVE COL MO 65201,"Hazlett, Harlan",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+BLDG-195113-2026,BLDR-000096-2026,Permit,BSD-Insulation,5743 ROYAL PLUM CT COLUMBIA MO 65202,"Hazlett, Harlan",08:00 AM,08:00 AM,,Re-inspection required (with fee),0,2026-04-17
+BLDG-195115-2026,BLDR-000096-2026,Permit,BSD-Framing and Rough In's,5743 ROYAL PLUM CT COLUMBIA MO 65202,"Hazlett, Harlan",08:00 AM,08:00 AM,,Re-inspection required,0,2026-04-17
+ELEC-195131-2026,BLDR-001092-2026,Permit,BSD-Electrical Tag,5209 STORMY DR COLUMBIA MO 65203,"Tiffany, Andy",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+BLDG-195129-2026,BLDR-001092-2026,Permit,BSD-Framing and Rough In's,5209 STORMY DR COLUMBIA MO 65203,"Tiffany, Andy",08:00 AM,08:00 AM,,Re-inspection required,0,2026-04-17
+FGAS-195128-2026,BLDR-001092-2026,Permit,BSD-Fuel Gas Tag,5209 STORMY DR COLUMBIA MO 65203,"Tiffany, Andy",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+FGAS-195130-2026,BLDR-001092-2026,Permit,BSD-Fuel Gas Pressure,5209 STORMY DR COLUMBIA MO 65203,"Tiffany, Andy",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+ELEC-195141-2026,BLDR-001169-2026,Permit,BSD-Electrical Tag,205 S GLENWOOD AVE COL MO 65203,"Lichty, Curtis",01:00 PM,01:00 PM,,Partial Pass Permit Inspection,0,2026-04-17
+EROS-195166-2026,BLDR-001991-2025,Permit,BSD-Erosion Control Measures,5305 OAKVILLE RANCH DR COL MO 65201,"Nunley, Louis",10:09 AM,10:09 AM,,Requested,0,2026-04-17
+FGAS-195174-2026,BLDR-002055-2026,Permit,BSD-Fuel Gas Pressure,1908 WOODHOLLOW DR COL MO 65203,"Tiffany, Andy",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+FGAS-195173-2026,BLDR-002055-2026,Permit,BSD-Fuel Gas Tag,1908 WOODHOLLOW DR COL MO 65203,"Tiffany, Andy",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195190-2026,BLDR-002248-2026,Permit,BSD-Plumbing Sewer Lateral,4608 COPPERSTONE CT COL MO 65203,"Tiffany, Andy",01:23 PM,01:23 PM,,Partial Pass Permit Inspection,0,2026-04-17
+PLMB-195175-2026,BLDR-002248-2026,Permit,BSD-Plumbing Groundwork,4608 COPPERSTONE CT COL MO 65203,"Tiffany, Andy",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195163-2026,BLDR-002527-2026,Permit,BSD-Plumbing Sewer Lateral,6012 KESTREL LOOP COLUMBIA MO 65202,"Hazlett, Harlan",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195164-2026,BLDR-002527-2026,Permit,BSD-Plumbing Groundwork,6012 KESTREL LOOP COLUMBIA MO 65202,"Hazlett, Harlan",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195133-2026,BLDR-003019-2026,Permit,BSD-Plumbing Groundwork,5724 KESTREL LOOP COL MO 65202,"Hazlett, Harlan",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195151-2026,BLDR-003033-2026,Permit,BSD-Plumbing Groundwork,2821 EMERY DR COL MO 65202,"Lichty, Curtis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195152-2026,BLDR-003033-2026,Permit,BSD-Plumbing Sewer Lateral,2821 EMERY DR COL MO 65202,"Lichty, Curtis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195153-2026,BLDR-003086-2026,Permit,BSD-Plumbing Groundwork,2817 EMERY DR COL MO 65202,"Lichty, Curtis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+PLMB-195154-2026,BLDR-003086-2026,Permit,BSD-Plumbing Sewer Lateral,2817 EMERY DR COL MO 65202,"Lichty, Curtis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+BLDG-195106-2026,BLDR-003090-2026,Permit,BSD-Footing,2813 EMERY DR COL MO 65202,"Lichty, Curtis",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+ELEC-195075-2026,BLDR-003164-2025,Permit,BSD-Electrical Tag,115 BINGHAM RD COLUMBIA MO 65203,"Lichty, Curtis",08:00 AM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+BLDG-195017-2026,BLDR-003612-2024,Permit,BSD-Residential Final (Building and Trades),4522 STONINGTON CT COL MO 65203,"Tiffany, Andy",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+BLDG-195181-2026,BLDR-004014-2025,Permit,BSD-Residential Final (Building and Trades),3525 HONEY SHOAL DR COLUMBIA MO 65202,"Hazlett, Harlan",01:00 PM,01:00 PM,,Re-inspection required,0,2026-04-17
+BLDG-195180-2026,BLDR-004015-2025,Permit,BSD-Residential Final (Building and Trades),3521 JAGGED LEAF DR COLUMBIA MO 65202,"Hazlett, Harlan",01:00 PM,01:00 PM,,Re-inspection required,0,2026-04-17
+SITE-195172-2026,BLDR-004464-2025,Permit,BSD-Driveway (Residential),313 ASH DOWN DR COLUMBIA MO 65201,"Nunley, Louis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+SITE-195170-2026,BLDR-004464-2025,Permit,BSD-Yard Final (Residential),313 ASH DOWN DR COLUMBIA MO 65201,"Nunley, Louis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+SITE-195149-2026,BLDR-005535-2025,Permit,BSD-Yard Final (Residential),4309 ZOE LN COL MO 65201,"Nunley, Louis",01:00 PM,01:00 PM,,Re-inspection required,0,2026-04-17
+BLDG-195150-2026,BLDR-005535-2025,Permit,BSD-Residential Final (Building and Trades),4309 ZOE LN COL MO 65201,"Tiffany, Andy",01:00 PM,01:00 PM,,Re-inspection required,0,2026-04-17
+195202-2026,BSDE-007405-2026,Professional License,BSD-Professional License,13318 ROUTE C RUSSELLVILLE MO 65074,"Lichty, Curtis",04:52 PM,04:52 PM,,Scheduled,0,2026-04-17
+DECK-195160-2026,DECK-001752-2026,Permit,BSD-Deck Only Final,305 W BURNAM RD COL MO 65203,"Tiffany, Andy",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+ELEC-195145-2026,ELEC-003475-2026,Permit,BSD-Electrical Tag,1604 SYLVAN LN APT B COL MO 65202,"Lichty, Curtis",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+SITE-195144-2026,LDST-000726-2025,Permit,BSD-Sidewalk (Residential),2899 CREASY SPRINGS RD COL MO 65202,"Price, Bud",08:19 AM,08:19 AM,,Partial Pass Permit Inspection,0,2026-04-17
+SITE-193789-2026,LDST-000726-2025,Permit,BSD-Street/Paving,2899 CREASY SPRINGS RD COL MO 65202,"Price, Bud",07:00 AM,07:00 AM,,Passed Permit Inspection,0,2026-04-17
+MECH-195143-2026,MECH-003302-2026,Permit,BSD-Mechanical Final (W&L),1214 BRADSHAW AVE COL MO 65203,"Ayala-Ruiz, Misael",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+MECH-195142-2026,MECH-003424-2026,Permit,BSD-Mechanical Final (W&L),5000 THORNBROOK RDG COL MO 65203,"Ayala-Ruiz, Misael",01:00 PM,01:00 PM,,Passed Permit Inspection,0,2026-04-17
+MECH-195077-2026,MECH-003446-2026,Permit,BSD-Mechanical Final (W&L),504 W LATHROP RD COL MO 65203,"Ayala-Ruiz, Misael",12:00 PM,12:00 PM,,Passed Permit Inspection,0,2026-04-17
+MECH-195104-2026,MECH-003447-2026,Permit,BSD-Mechanical Final,4902 COCHERO CT COL MO 65203,"Tiffany, Andy",12:00 PM,12:00 PM,,Passed Permit Inspection,0,2026-04-17
+MECH-195135-2026,MECH-006070-2025,Permit,BSD-Mechanical Final (W&L),3704 LANSING AVE COL MO 65201,"Ayala-Ruiz, Misael",12:00 PM,12:00 PM,,Passed Permit Inspection,0,2026-04-17
+ILRINSP-195148-2026,OILER-057300-2026,Code Case,ONS - Possible Illegal Rental ,107 BOGIE HILLS DR COLUMBIA MO 65201,"Millard, Rachelle",12:00 AM,12:00 AM,,In Violation,0,2026-04-17
+ONSINSPECT-194977-2026,OLM-057231-2026,Code Case,ONS - Inspection,2312 BITTERNUT DR COLUMBIA MO 65202,"McClintic, Jason",02:38 PM,02:38 PM,,Passed Code Inspection,0,2026-04-17
+1STINSP-195187-2026,OLM-057324-2026,Code Case,ONS - Initial Inspection,1700 ALASKA CT COLUMBIA MO 65202,"McClintic, Jason",12:36 PM,12:36 PM,,In Violation,0,2026-04-17
+1STINSP-195189-2026,OLM-057325-2026,Code Case,ONS - Initial Inspection,1704 ALASKA CT COLUMBIA MO 65202,"McClintic, Jason",12:44 PM,12:44 PM,,Passed Code Inspection,0,2026-04-17
+1STINSP-195191-2026,OLM-057334-2026,Code Case,ONS - Initial Inspection,5116 CLARK LN COLUMBIA MO 65202,"McClintic, Jason",01:24 PM,01:24 PM,,In Violation,0,2026-04-17
+RTINSP-189915-2026,ONS010852,Business License,ONS - Rental Housing,1508 PATSY LN   COLUMBIA MO 65203,"Millard, Rachelle",09:30 AM,09:30 AM,,ONS - RH Re-inspection,0,2026-04-17
+RTINSP-191018-2026,ONS011175,Business License,ONS - Rental Housing,5307 WOOD SHIRE DR COLUMBIA MO 65202,"Friesz, Adam",03:00 AM,03:00 AM,,Passed-Rental,0,2026-04-17
+RTINSP-192823-2026,ONS011545,Business License,ONS - Rental Housing,1601 MERIDETH DR   COLUMBIA MO 65203,"Friesz, Adam",10:00 AM,10:00 AM,,Passed-Rental,0,2026-04-17
+RTINSP-192837-2026,ONS011806,Business License,ONS - Rental Housing,2410 MORNING GLORY DR   COLUMBIA MO 65202,"Friesz, Adam",03:00 AM,03:00 AM,,Scheduled,0,2026-04-17
+RTINSP-193547-2026,ONS020110,Business License,ONS - Rental Housing,205 BRIARCREST CT   COLUMBIA MO 65203,"Friesz, Adam",10:45 AM,10:45 AM,,ONS - RH Re-inspection,0,2026-04-17
+RTINSP-193565-2026,ONS020289,Business License,ONS - Rental Housing,1303 WHIRLAWAY CT COLUMBIA MO 65202,"Millard, Rachelle",10:15 AM,10:15 AM,,Passed-Rental,0,2026-04-17
+RTINSP-193749-2026,ONS020454,Business License,ONS - Rental Housing,2115 SOUTHWOOD DR   COLUMBIA MO 65201,"Friesz, Adam",01:45 PM,01:45 PM,,Passed-Rental,0,2026-04-17
+RTINSP-191360-2026,ONS025567,Business License,ONS - Rental Housing,306 DOROTHY DEAN DR COLUMBIA MO 65203,"Friesz, Adam",01:00 PM,01:00 PM,,Passed-Rental,0,2026-04-17
+RTINSP-193754-2026,ONS025779,Business License,ONS - Rental Housing,1528 CITADEL DR COLUMBIA MO 65202,"Friesz, Adam",03:00 AM,03:00 AM,,Passed-Rental,0,2026-04-17
+ONSINSPECT-194705-2026,OTOE-057184-2026,Code Case,ONS - Inspection,950 E BOONE INDUSTRIAL BLVD   COLUMBIA MO 65202,"Cagle, Joseph",07:21 AM,07:21 AM,,Scheduled,0,2026-04-17
+PLMB-195155-2026,PLMB-003408-2026,Permit,BSD-Plumbing Sewer Lateral,3351 E GANS RD COL MO 65201,"Tiffany, Andy",01:00 PM,01:00 PM,,Partial Pass Permit Inspection,0,2026-04-17
+ROW-195157-2026,ROW-003014-2026,Permit,ROW-Construction Inspection,3409 AUGUSTA DR COL MO 65203,"Nunley, Louis",09:18 AM,09:18 AM,,Passed Permit Inspection,0,2026-04-17
+ROW-195094-2026,ROW-003224-2026,Permit,ROW-Construction Inspection,5102 COLUMBIA GORGE PKWY   COLUMBIA MO 65201,"Nunley, Louis",08:00 AM,08:00 AM,,Passed Permit Inspection,0,2026-04-17
+ROW-195158-2026,ROW-003288-2026,Permit,ROW-Construction Inspection,2432 CALDER CT COL MO 65201,"Nunley, Louis",09:18 AM,09:18 AM,,Passed Permit Inspection,0,2026-04-17
+ROW-195147-2026,ROW-003292-2026,Permit,ROW-Construction Inspection,4113 CITATION DR COL MO 65202,"Price, Bud",08:36 AM,08:36 AM,,Passed Permit Inspection,0,2026-04-17
+ROW-195146-2026,ROW-003305-2026,Permit,ROW-Construction Inspection,2008 PETTIS DR COL MO 65202,"Price, Bud",08:35 AM,08:35 AM,,Passed Permit Inspection,0,2026-04-17
