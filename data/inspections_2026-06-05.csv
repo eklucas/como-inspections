@@ -1,0 +1,84 @@
+View Inspection,Case Number,Case Type,Inspection Type,Address,Primary Inspector,Estimated Start Time,Estimated End Time,Inspector Phone Number,Status,Order
+"BLBI-198992-2026","BL000860","Business License","BSD-Business License","1000 PANNELL ST STE G COLUMBIA MO 65201","Brown, Daryl","12:00 AM","12:00 AM","","Passed Business License",0
+"FIRENEWBI-199021-2026","BL016707","Business License","Fire - NEW Business Inspection","204 PEACH WAY STE D COLUMBIA MO 65203","Wright, Colin","12:00 AM","12:00 AM","","Scheduled",0
+"BLBI-199022-2026","BL016707","Business License","BSD-Business License","204 PEACH WAY STE D COLUMBIA MO 65203","Brown, Daryl","12:00 AM","12:00 AM","","Passed Business License",0
+"FFNL-199089-2026","BLDC-003335-2026","Permit","Fire Final (Building)","2011 CORONA RD STE 101 COL MO 65203","RIGGS, STEVEN","12:00 AM","12:00 AM","","Re-inspection required",0
+"FFNL-199090-2026","BLDC-003335-2026","Permit","Fire Final (Building)","2011 CORONA RD STE 101 COL MO 65203","RIGGS, STEVEN","12:00 AM","12:00 AM","","Requested",0
+"BLDG-199032-2026","BLDC-006283-2025","Permit","BSD-Framing and Rough In's","3501 ENDEAVOR AVE COLUMBIA MO 65201","Hazlett, Harlan","01:00 PM","01:00 PM","","Partial Pass Permit Inspection",0
+"FIRE-PIPE-199046-2026","BLDC-006283-2025","Permit","Fire - Sprinkler System Piping Inspection","3501 ENDEAVOR AVE COLUMBIA MO 65201","RIGGS, STEVEN","12:00 AM","12:00 AM","","Requested",0
+"BLDG-199018-2026","BLDC-006405-2025","Permit","BSD-Final (Building and Trades)","725 SCOTT BLVD STE 103 COL MO 65203","Hazlett, Harlan","01:00 PM","01:00 PM","","Re-inspection required",0
+"BLDG-199009-2026","BLDR-000280-2026","Permit","BSD-Framing and Rough In's","4601 RIA ST COLUMBIA MO 65202","Hombs, Josh","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"BLDG-199008-2026","BLDR-000280-2026","Permit","BSD-Insulation","4601 RIA ST COLUMBIA MO 65202","Hombs, Josh","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"BLDG-199011-2026","BLDR-000281-2026","Permit","BSD-Insulation","4603 RIA ST COLUMBIA MO 65202","Hombs, Josh","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"BLDG-199028-2026","BLDR-000436-2026","Permit","BSD-Residential Final (Building and Trades)","708 ALTON AVE COLUMBIA MO 65201","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"BLDG-199029-2026","BLDR-000437-2026","Permit","BSD-Residential Final (Building and Trades)","710 ALTON AVE COLUMBIA MO 65201","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"BLDG-199045-2026","BLDR-002527-2026","Permit","BSD-Framing and Rough In's","6012 KESTREL LOOP COLUMBIA MO 65202","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"BLDG-199044-2026","BLDR-002527-2026","Permit","BSD-Insulation","6012 KESTREL LOOP COLUMBIA MO 65202","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"PLMB-199049-2026","BLDR-002897-2026","Permit","BSD-Plumbing Groundwork","1025 BROCKTON DR COLUMBIA MO 65201","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"PLMB-199048-2026","BLDR-002897-2026","Permit","BSD-Plumbing Sewer Lateral","1025 BROCKTON DR COLUMBIA MO 65201","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"SITE-199013-2026","BLDR-004463-2025","Permit","BSD-Sidewalk (Residential)","7513 BIDDLESTONE CT COLUMBIA MO 65203","Allen, Cody","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"SITE-199042-2026","BLDR-006439-2025","Permit","BSD-Yard Final (Residential)","2016 STONE MOUNTAIN CT COLUMBIA MO 65201","Nunley, Louis","01:00 PM","01:00 PM","","Re-inspection required (with fee)",0
+"EROS-199041-2026","BLDR-006439-2025","Permit","BSD-Erosion Control Measures","2016 STONE MOUNTAIN CT COLUMBIA MO 65201","Nunley, Louis","01:00 PM","01:00 PM","","Cancelled ",0
+"DECK-199036-2026","DECK-002638-2026","Permit","BSD-Deck Only Final","805 RANDY LN COL MO 65201","Hombs, Josh","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"BLDG-198988-2026","DECK-003776-2026","Permit","BSD-Deck Piers","2405 RAINIER CT COL MO 65203","Hazlett, Harlan","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"BLDG-198999-2026","DECK-004359-2026","Permit","BSD-Deck Piers","4309 STEVENDAVE DR COLUMBIA MO 65202","Hombs, Josh","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"DEMO-199039-2026","DEMO-004381-2026","Permit","BSD-Place Demo Sign","407 PERSHING RD COL MO 65203","Hazlett, Harlan","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"ELEC-198680-2026","ELEC-004092-2026","Permit","BSD-Electrical Final","2001 DORIS DR COL MO 65202","Lichty, Curtis","01:00 PM","01:00 PM","","Cancelled ",0
+"ELEC-198130-2026","ELEC-004176-2026","Permit","BSD-Electrical Tag","5004 STONE MOUNTAIN PKWY COLUMBIA MO 65201","Hazlett, Harlan","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"SITE-199053-2026","LDST-000726-2025","Permit","BSD-Sidewalk (Residential)","2899 CREASY SPRINGS RD COL MO 65202","Price, Bud","11:17 AM","11:17 AM","","Partial Pass Permit Inspection",0
+"EROS-199014-2026","LDST-001944-2026","Permit","BSD-Erosion Control Measures","1705 MCKEE ST COL MO 65202","Price, Bud","06:55 AM","06:55 AM","","Partial Pass Permit Inspection",0
+"MECH-198989-2026","MECH-004256-2026","Permit","BSD-Mechanical Final (W&L)","504 MANOR DR COL MO 65203","Ayala-Ruiz, Misael","01:00 PM","01:00 PM","","Passed Permit Inspection",0
+"MECH-198935-2026","MECH-004274-2026","Permit","BSD-Mechanical Final (W&L)","3609 ARBOR CT COL MO 65201","Figueroa, Eric","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"MECH-198971-2026","MECH-004308-2026","Permit","BSD-Mechanical Final","502 SPIDER MONKEY CT COL MO 65202","Hazlett, Harlan","12:00 PM","12:00 PM","","Passed Permit Inspection",0
+"ONSHNI-196706-2026","OHN-057859-2026","Code Case","ONS - Health Nuisance Inspection","1411 ROSEMARY LN COLUMBIA MO 65201","Perkins, Marsha","09:53 AM","09:53 AM","","Scheduled",0
+"ONSHNI-196839-2026","OHN-057927-2026","Code Case","ONS - Health Nuisance Inspection","710 MOUNT VERNON AVE COLUMBIA MO 65201","Perkins, Marsha","12:44 PM","12:44 PM","","Scheduled",0
+"1STINSP-199069-2026","OHN-058761-2026","Code Case","ONS - Initial Inspection","4201 CLARK LN TRLR 109 COLUMBIA MO 65202","McClintic, Jason","10:00 AM","10:00 AM","","In Violation",0
+"ONSINSPECT-197387-2026","OLM-057765-2026","Code Case","ONS - Inspection","1408 LAKEVIEW AVE DEMO APT 50 COLUMBIA MO 65201","Perkins, Marsha","09:27 AM","09:27 AM","","Scheduled",0
+"ONSINSPECT-197511-2026","OLM-058186-2026","Code Case","ONS - Inspection","4413 RICE RD COLUMBIA MO 65202","Perkins, Marsha","03:24 PM","03:24 PM","","Scheduled",0
+"ONSINSPECT-198542-2026","OLM-058473-2026","Code Case","ONS - Inspection","3801 JUNGLE TREE DR COLUMBIA MO 65202","Fuelling, Quentin","03:57 PM","03:57 PM","","Passed Code Inspection",0
+"ONSINSPECT-198517-2026","OLM-058517-2026","Code Case","ONS - Inspection","4208 RICE RD COLUMBIA MO 65202","Fuelling, Quentin","01:22 PM","01:22 PM","","Scheduled",0
+"ONSINSPECT-198513-2026","OLM-058535-2026","Code Case","ONS - Inspection","601 EASTLAKE DR COLUMBIA MO 65203","Fuelling, Quentin","01:17 PM","01:17 PM","","Passed Code Inspection",0
+"ONSINSPECT-198522-2026","OLM-058555-2026","Code Case","ONS - Inspection","1807 BOYD LN COLUMBIA MO 65202","Fuelling, Quentin","01:32 PM","01:32 PM","","Passed Code Inspection",0
+"ONSINSPECT-198526-2026","OLM-058556-2026","Code Case","ONS - Inspection","1906 LIGHTVIEW DR COLUMBIA MO 65202","Fuelling, Quentin","01:52 PM","01:52 PM","","Passed Code Inspection",0
+"ONSINSPECT-198528-2026","OLM-058557-2026","Code Case","ONS - Inspection","5002 GEETHA DR COLUMBIA MO 65202","Fuelling, Quentin","01:57 PM","01:57 PM","","Passed Code Inspection",0
+"ONSINSPECT-198530-2026","OLM-058558-2026","Code Case","ONS - Inspection","2208 OSAGE DR COLUMBIA MO 65202","Fuelling, Quentin","02:00 PM","02:00 PM","","Scheduled",0
+"ONSINSPECT-198548-2026","OLM-058565-2026","Code Case","ONS - Inspection","4308 CHANCELLOR CIR   COLUMBIA MO 65202","Fuelling, Quentin","04:25 PM","04:25 PM","","Scheduled",0
+"ONSINSPECT-198550-2026","OLM-058566-2026","Code Case","ONS - Inspection","4318 CHANCELLOR CIR   COLUMBIA MO 65202","Fuelling, Quentin","04:28 PM","04:28 PM","","Scheduled",0
+"ONSINSPECT-198552-2026","OLM-058567-2026","Code Case","ONS - Inspection","4304 CHANCELLOR CIR COLUMBIA MO 65202","Fuelling, Quentin","04:32 PM","04:32 PM","","Scheduled",0
+"1STINSP-199080-2026","OLM-058758-2026","Code Case","ONS - Initial Inspection","2004 CORPORATE PL COLUMBIA MO 65202","McClintic, Jason","11:00 AM","11:00 AM","","In Violation",0
+"1STINSP-199070-2026","OLM-058799-2026","Code Case","ONS - Initial Inspection","2505 BEAR BLUFF DR   COLUMBIA MO 65202","McClintic, Jason","12:46 PM","12:46 PM","","In Violation",0
+"1STINSP-199071-2026","OLM-058801-2026","Code Case","ONS - Initial Inspection","","McClintic, Jason","11:00 AM","11:00 AM","","In Violation",0
+"1STINSP-199081-2026","OLM-058805-2026","Code Case","ONS - Initial Inspection","801 FAIRVIEW AVE   COLUMBIA MO 65201","Fuelling, Quentin","02:22 PM","02:22 PM","","In Violation",0
+"1STINSP-199084-2026","OLM-058806-2026","Code Case","ONS - Initial Inspection","112 W SEXTON RD COLUMBIA MO 65203","Fuelling, Quentin","02:27 PM","02:27 PM","","In Violation",0
+"1STINSP-199087-2026","OLM-058808-2026","Code Case","ONS - Initial Inspection","208 W SEXTON RD   COLUMBIA MO 65203","Fuelling, Quentin","02:31 PM","02:31 PM","","In Violation",0
+"1STINSP-199100-2026","OLM-058818-2026","Code Case","ONS - Initial Inspection","613 BEAR VALLEY CT COLUMBIA MO 65202","McClintic, Jason","11:00 AM","11:00 AM","","In Violation",0
+"1STINSP-199101-2026","OLM-058819-2026","Code Case","ONS - Initial Inspection","611 BEAR VALLEY CT COLUMBIA MO 65202","McClintic, Jason","10:05 AM","10:05 AM","","In Violation",0
+"RTINSP-197619-2026","ONS011848","Business License","ONS - Rental Housing","1615 SYLVAN LN APT 1J COLUMBIA MO 65202","Friesz, Adam","11:30 AM","11:30 AM","","Scheduled",0
+"RTINSP-197622-2026","ONS012484","Business License","ONS - Rental Housing","806 KING AVE   COLUMBIA MO 65203","Friesz, Adam","01:00 PM","01:00 PM","","ONS - RH Re-inspection",0
+"RTINSP-196742-2026","ONS020192","Business License","ONS - Rental Housing","1505 GREENSBORO DR COLUMBIA MO 65202","Friesz, Adam","03:00 AM","03:00 AM","","Scheduled",0
+"RTINSP-196745-2026","ONS020193","Business License","ONS - Rental Housing","1524 CITADEL DR COLUMBIA MO 65202","Friesz, Adam","03:00 AM","03:00 AM","","Scheduled",0
+"RTINSP-197618-2026","ONS020383","Business License","ONS - Rental Housing","804 PARK DE VILLE PL COLUMBIA MO 65203","Friesz, Adam","10:45 AM","10:45 AM","","Scheduled",0
+"RTINSP-197415-2026","ONS020956","Business License","ONS - Rental Housing","410 VICTORIA DR COLUMBIA MO 65201","Stark, James","07:00 AM","07:00 AM","","Passed-Rental",0
+"RTINSP-193442-2026","ONS025451","Business License","ONS - Rental Housing","1412 W ASH ST COLUMBIA MO 65203","Friesz, Adam","10:00 AM","10:00 AM","","Passed-Rental",0
+"RTINSP-196307-2026","ONS025800","Business License","ONS - Rental Housing","2812 MULBERRY RD COLUMBIA MO 65202","Stark, James","07:30 AM","07:30 AM","","Scheduled",0
+"RTINSP-196306-2026","ONS025801","Business License","ONS - Rental Housing","2618 WHITE GATE DR COLUMBIA MO 65202","Stark, James","07:00 AM","07:00 AM","","Scheduled",0
+"RTINSP-197620-2026","ONS026135","Business License","ONS - Rental Housing","3705 SWAN CT   COLUMBIA MO 65202","Millard, Rachelle","09:45 AM","09:45 AM","","ONS - RH Re-inspection",0
+"ONSHNI-193248-2026","ONVPR-056767-2026","Code Case","ONS - Health Nuisance Inspection","306 DYSART ST COLUMBIA MO 65201","Perkins, Marsha","09:48 AM","09:48 AM","","Scheduled",0
+"ONSHNI-196825-2026","ONVPR-057921-2026","Code Case","ONS - Health Nuisance Inspection","1405 LIBERTY ST COLUMBIA MO 65201","Perkins, Marsha","12:02 PM","12:02 PM","","Scheduled",0
+"1STINSP-199073-2026","ONVPR-058802-2026","Code Case","ONS - Initial Inspection","4502 RIA ST COLUMBIA MO 65202","McClintic, Jason","01:27 PM","01:27 PM","","In Violation",0
+"1STINSP-199094-2026","ONVPR-058809-2026","Code Case","ONS - Initial Inspection","204 W PHYLLIS AVE COLUMBIA MO 65202","McClintic, Jason","10:00 AM","10:00 AM","","In Violation",0
+"1STINSP-199035-2026","ORC-058715-2026","Code Case","ONS - Initial Inspection","1723 JUNIPER DR COLUMBIA MO 65201","Stark, James","01:00 PM","01:00 PM","","Scheduled",0
+"ONSINSPECT-198672-2026","OTOE-058636-2026","Code Case","ONS - Inspection","3580 PRESCOTT DR COLUMBIA MO 65201","Cagle, Joseph","07:53 AM","07:53 AM","","Passed Code Inspection",0
+"ONSINSPECT-198746-2026","OTOE-058659-2026","Code Case","ONS - Inspection","1653 HIGH QUEST CIR COLUMBIA MO 65202","Cagle, Joseph","11:36 AM","11:36 AM","","Scheduled",0
+"1STINSP-199033-2026","OTOE-058784-2026","Code Case","ONS - Initial Inspection","411 N EIGHTH ST COLUMBIA MO 65201","Cagle, Joseph","09:50 AM","09:50 AM","","In Violation",0
+"1STINSP-199051-2026","OTOE-058787-2026","Code Case","ONS - Initial Inspection","1623 HANOVER BLVD COLUMBIA MO 65202","Cagle, Joseph","11:12 AM","11:12 AM","","In Violation",0
+"1STINSP-199056-2026","OTOE-058789-2026","Code Case","ONS - Initial Inspection","702 HUNT AVE COLUMBIA MO 65203","Cagle, Joseph","11:28 AM","11:28 AM","","In Violation",0
+"1STINSP-199058-2026","OTOE-058793-2026","Code Case","ONS - Initial Inspection","605 CLINKSCALES RD COLUMBIA MO 65203","Cagle, Joseph","11:41 AM","11:41 AM","","In Violation",0
+"1STINSP-199062-2026","OTOE-058794-2026","Code Case","ONS - Initial Inspection","716 CLINKSCALES RD COLUMBIA MO 65203","Cagle, Joseph","11:49 AM","11:49 AM","","In Violation",0
+"1STINSP-199065-2026","OTOE-058795-2026","Code Case","ONS - Initial Inspection","722 CLINKSCALES RD COLUMBIA MO 65203","Cagle, Joseph","11:58 AM","11:58 AM","","In Violation",0
+"1STINSP-199067-2026","OTOE-058797-2026","Code Case","ONS - Initial Inspection","1416 W WORLEY ST APT B COLUMBIA MO 65203","Cagle, Joseph","12:17 PM","12:17 PM","","In Violation",0
+"ONSINSPECT-198191-2026","OZPARK-058375-2026","Code Case","ONS - Inspection","305 ROGERS ST COLUMBIA MO 65201","Perkins, Marsha","10:42 AM","10:42 AM","","Scheduled",0
+"SITE-199059-2026","ROW-004055-2026","Permit","BSD-Sidewalk (Residential)","4100 COPPERSTONE CREEK DR COL MO 65203","Allen, Cody","11:41 AM","11:41 AM","","Partial Pass Permit Inspection",0
+"ROW-199037-2026","ROW-004163-2026","Permit","ROW-Construction Inspection","1405 FURLONG DR COL MO 65202","Price, Bud","12:00 PM","12:00 PM","","Passed Permit Inspection",0
+"SITE-198994-2026","ROW-004270-2026","Permit","BSD-Driveway (Residential)","3816 CHURCHILL DR COLUMBIA MO 65201","Nunley, Louis","08:00 AM","08:00 AM","","Passed Permit Inspection",0
+"SITE-198995-2026","ROW-004270-2026","Permit","BSD-Sidewalk (Residential)","3816 CHURCHILL DR COLUMBIA MO 65201","Nunley, Louis","08:00 AM","08:00 AM","","Passed Permit Inspection",0

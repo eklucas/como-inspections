@@ -23,7 +23,7 @@ def scrape():
         page = browser.new_page()
 
         print(f"Loading {PAGE_URL}")
-        page.goto(PAGE_URL, wait_until="networkidle", timeout=60_000)
+        page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=60_000)
 
         try:
             page.wait_for_selector(TABLE_SELECTOR, timeout=30_000)
