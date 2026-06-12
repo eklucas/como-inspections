@@ -2,6 +2,7 @@
 """Scrape today's inspections from Columbia, MO EnerGov portal."""
 
 import csv
+import os
 import sys
 import tempfile
 from datetime import date
@@ -77,6 +78,10 @@ def main():
         writer.writerows(rows)
 
     print(f"Saved {len(rows)} rows to {output_path}")
+
+    # if os.environ.get("R2_BUCKET"):
+    #     from upload import upload
+    #     upload(output_path, f"inspections/inspections_{today}.csv")
 
 
 if __name__ == "__main__":
