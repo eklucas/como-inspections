@@ -27,10 +27,18 @@ def scrape():
         page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
 
         try:
-            page.wait_for_selector(TABLE_SELECTOR, timeout=60_000)
+            matched = page.wait_for_selector(
+                f"{TABLE_SELECTOR}, :text('No records to display')",
+                timeout=60_000,
+            )
         except PlaywrightTimeoutError:
             print("ERROR: Table did not load within 60 seconds.", file=sys.stderr)
             sys.exit(1)
+
+        if matched and "No records" in (matched.text_content() or ""):
+            print("No inspections today — exiting without writing file.")
+            browser.close()
+            return []
 
         # Open export dialog
         page.locator("button", has_text="Export").click()
@@ -66,8 +74,8 @@ def main():
     print(f"Scraped {len(rows)} rows.")
 
     if not rows:
-        print("No data found — exiting without writing file.", file=sys.stderr)
-        sys.exit(1)
+        print("No data found — exiting without writing file.")
+        sys.exit(0)
 
     today = date.today().isoformat()
     output_path = OUTPUT_DIR / f"inspections_{today}.csv"
