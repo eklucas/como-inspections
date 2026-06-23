@@ -24,22 +24,22 @@ def scrape():
         page = browser.new_page()
 
         print(f"Loading {PAGE_URL}")
-        page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=60_000)
+        page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
 
         try:
-            page.wait_for_selector(TABLE_SELECTOR, timeout=30_000)
+            page.wait_for_selector(TABLE_SELECTOR, timeout=60_000)
         except PlaywrightTimeoutError:
-            print("ERROR: Table did not load within 30 seconds.", file=sys.stderr)
+            print("ERROR: Table did not load within 60 seconds.", file=sys.stderr)
             sys.exit(1)
 
         # Open export dialog
         page.locator("button", has_text="Export").click()
-        page.wait_for_selector("#filename", timeout=10_000)
+        page.wait_for_selector("#filename", timeout=60_000)
 
         page.locator("#filename").fill("export")
         page.locator("input[type='radio']").first.check()
 
-        with page.expect_download(timeout=30_000) as dl:
+        with page.expect_download(timeout=60_000) as dl:
             page.get_by_role("button", name="Ok").click()
 
         download = dl.value
