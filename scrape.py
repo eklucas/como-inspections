@@ -14,6 +14,7 @@ BASE_URL = "https://energov.como.gov/EnerGov_Prod/SelfService"
 PAGE_URL = f"{BASE_URL}#/inspection/todaysinspections"
 OUTPUT_DIR = Path("data")
 TABLE_SELECTOR = "#selfServiceTable-TodaysInspections tbody tr"
+INSPECTIONS_API = "api/energov/inspections/todaysinspections"
 
 
 def scrape():
@@ -24,21 +25,26 @@ def scrape():
         page = browser.new_page()
 
         print(f"Loading {PAGE_URL}")
-        page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
-
         try:
-            matched = page.wait_for_selector(
-                f"{TABLE_SELECTOR}, :text('No records to display')",
-                timeout=60_000,
-            )
+            with page.expect_response(
+                lambda r: INSPECTIONS_API in r.url and r.request.method == "POST",
+                timeout=120_000,
+            ) as response_info:
+                page.goto(PAGE_URL, wait_until="domcontentloaded", timeout=120_000)
+            total_found = response_info.value.json().get("TotalFound", 0)
         except PlaywrightTimeoutError:
-            print("ERROR: Table did not load within 60 seconds.", file=sys.stderr)
+            print("ERROR: Inspections data did not load within 120 seconds.", file=sys.stderr)
             sys.exit(1)
 
-        if matched and "No records" in (matched.text_content() or ""):
+        if not total_found:
             print("No inspections today — exiting without writing file.")
             browser.close()
             return []
+
+        # The grid has data at this point (confirmed via the API response
+        # above), so this just waits for Angular to render it — no race
+        # against the "No records to display" placeholder.
+        page.wait_for_selector(TABLE_SELECTOR, timeout=60_000)
 
         # Open export dialog
         page.locator("button", has_text="Export").click()
