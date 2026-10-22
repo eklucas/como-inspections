@@ -1,0 +1,14 @@
+View Inspection,Case Number,Case Type,Inspection Type,Address,Primary Inspector,Estimated Start Time,Estimated End Time,Inspector Phone Number,Status,Order,scrape_date
+RTINSP-193021-2026,ONS010649,Business License,ONS - Rental Housing,1609 WILSON AVE   COLUMBIA MO 65201,"Friesz, Adam",09:00 AM,09:00 AM,,Scheduled,0,2026-10-22
+RTINSP-208358-2026,ONS012854,Business License,ONS - Rental Housing,625 S FOURTH ST   COLUMBIA MO 65201,"Brockhouse, David",09:00 AM,09:00 AM,,Scheduled,0,2026-10-22
+RTINSP-208356-2026,ONS013032,Business License,ONS - Rental Housing,2805 ROLLINS RD   COLUMBIA MO 65203,"Friesz, Adam",01:00 PM,01:00 PM,,Scheduled,0,2026-10-22
+RTINSP-208303-2026,ONS013602,Business License,ONS - Rental Housing,1413 GODAS DR COLUMBIA MO 65202,"Brockhouse, David",12:00 AM,12:00 AM,,Passed-Rental,0,2026-10-22
+RTINSP-208354-2026,ONS013851,Business License,ONS - Rental Housing,1507 UNIVERSITY AVE   COLUMBIA MO 65201,"Friesz, Adam",10:00 AM,10:00 AM,,Scheduled,0,2026-10-22
+RTINSP-208355-2026,ONS013852,Business License,ONS - Rental Housing,1502 ROSEMARY LN   COLUMBIA MO 65201,"Friesz, Adam",10:45 AM,10:45 AM,,Scheduled,0,2026-10-22
+RTINSP-207646-2026,ONS013975,Business License,ONS - Rental Housing,3400 KEENES EDGE DR COLUMBIA MO 65201,"Brockhouse, David",12:00 AM,12:00 AM,,Scheduled,0,2026-10-22
+RTINSP-207916-2026,ONS021235,Business License,ONS - Rental Housing,3409 AUGUSTA DR COLUMBIA MO 65203,"Millard, Rachelle",06:00 AM,06:00 AM,,Passed-Rental,0,2026-10-22
+RTINSP-207932-2026,ONS026656,Business License,ONS - Rental Housing,1512 ST ANDREW ST COLUMBIA MO 65203,"Millard, Rachelle",06:00 AM,06:00 AM,,Scheduled,0,2026-10-22
+RTINSP-207937-2026,ONS026757,Business License,ONS - Rental Housing,7 E BRANDON RD COLUMBIA MO 65203,"Millard, Rachelle",06:00 AM,06:00 AM,,Passed-Rental,0,2026-10-22
+1STINSP-209167-2026,ORC-062330-2026,Code Case,ONS - Initial Inspection,1402 UNIVERSITY AVE COLUMBIA MO 65201,"Brockhouse, David",12:00 PM,12:00 PM,,Scheduled,0,2026-10-22
+ONSINSPECT-208874-2026,OTOE-062259-2026,Code Case,ONS - Inspection,111 REDWOOD RD COLUMBIA MO 65203,"Cagle, Joseph",08:37 AM,08:37 AM,,Scheduled,0,2026-10-22
+ONSINSPECT-208887-2026,OTOE-062264-2026,Code Case,ONS - Inspection,116 REDWOOD RD COLUMBIA MO 65203,"Cagle, Joseph",09:20 AM,09:20 AM,,Passed Code Inspection,0,2026-10-22
